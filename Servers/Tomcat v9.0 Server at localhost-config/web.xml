@@ -14,13 +14,7 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
---><web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                        http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
-<!--     <resource-ref>
-        <description>Oracle DB Connection</description>
-        <res-ref-name>jdbc/myoracle</res-ref-name>
-        <res-type>javax.sql.DataSource</res-type>
-        <res-auth>Container</res-auth>
-    </resource-ref> -->
+--><web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 
   <!-- ======================== Introduction ============================== -->
   <!-- This document defines default values for *all* web applications      -->
@@ -129,8 +123,6 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
-    
-    
 
 
   <!-- The JSP page compiler and execution servlet, which is the mechanism  -->
